@@ -11,3 +11,7 @@ But its network libraries are lack of server functionalities...(APIs, Web Applic
 So, combine Processing with Spring framework... simple!
 
 
+## Goal Functionalities
+
+REST -> Processing Variables
+WebSocket -> Processing Variables
