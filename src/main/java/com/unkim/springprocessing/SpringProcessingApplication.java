@@ -7,8 +7,8 @@ import processing.core.PApplet;
 @SpringBootApplication
 public class SpringProcessingApplication {
 
-	public static void main(String[] args) {
-		PApplet.main("com.unkim.springprocessing.ProcessingMain");
-		SpringApplication.run(SpringProcessingApplication.class, args);
-	}
+    public static void main(String[] args) {
+        PApplet.main(ProcessingMain.class, args);
+        SpringApplication.run(SpringProcessingApplication.class, args);
+    }
 }

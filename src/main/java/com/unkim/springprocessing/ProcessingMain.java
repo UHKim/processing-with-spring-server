@@ -1,17 +1,24 @@
 package com.unkim.springprocessing;
 import processing.core.*;
 
-public class ProcessingMain extends PApplet{
-    public void settings(){
-        size(300,300);
+public class ProcessingMain extends PApplet implements CommendReceiver {
+    public int radius = 100;
+
+    public void settings() {
+        size(600, 400);
     }
 
-    public void setup(){
-        fill(120,50,240);
+    public void setup() {
+        background(0, 0, 0);
     }
 
-    public void draw(){
-        ellipse(width/2,height/2,second(),second());
+    public void draw() {
+        ellipse(width / 2, height / 2, radius, radius);
+        fill(50, 50, 50);
+    }
+
+    public void executeCommend(){
+
     }
 
 }
